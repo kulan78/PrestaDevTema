@@ -50,12 +50,13 @@ a {cursor:pointer}
 /* ************************************************************************************************
 		generic style
 ************************************************************************************************ */
-body{
-	font:normal 11px/14px Arial, Verdana, sans-serif;
-	color:#222;
-	background:#fff
+body {
+    background: url("../img/bg.jpg") repeat scroll 0 0 transparent;
+    color: #DDDAD0;
+    font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 12px;
+    text-align: center;
 }
-
 /* positionnement ****************************************************************************** */
 .hidden {display:none}
 .f_right {float:right}
