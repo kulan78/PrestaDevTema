@@ -90,7 +90,7 @@ body {
     color: #DDDAD0;
     font-family: Arial,Helvetica,Sans-Serif;
     font-size: 12px;
-    text-align: center;
+    text-align: left;
 }
 /* positionnement ****************************************************************************** */
 .hidden {display:none}
@@ -310,12 +310,25 @@ table.table_block  td {
 .block {margin-bottom:20px}
 #footer .block {margin-bottom:0}
 	.block h4 {
-		padding:6px 11px;
+		background: url(../../../modules/blockcategories/img/icon/red-star.png) no-repeat scroll left center transparent;
+background-position: 0px 8px;
+		 color: #FFFFFF;
+    font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 19px;
+    line-height: 1.3em;
+    /*padding-left: 0.9em;
+    padding-top: 2px;*/
+    text-transform: uppercase;
+	/*	padding:6px 11px;
 		font-size:12px;
 		color:#fff;
 		text-shadow:0 1px 0 #000;
 		text-transform:uppercase;
-		background:#383838
+		background:#383838;*/
+		padding:6px 20px;
+		margin-left: 20px;
 	}
 		.block h4 a {color:#fff}
 	.block ul {list-style-type:none}
@@ -577,13 +590,26 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 		BREADCRUMB
 ************************************************************************************************ */
 .breadcrumb {
-	margin-bottom:10px;
-	font-size:12px
+	 color: #DDDAD0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 0;
+
+
 }
-.breadcrumb .navigation-pipe {margin:0 3px 0 5px}
+.breadcrumb .navigation-pipe {
+	margin:0 3px 0 5px;
+	text-align: left;
+
+
+}
 .breadcrumb img {
-	position:relative;
-	top:5px
+		display: none;
+
+	/*position:relative;
+	top:5px;*/
+	
 }
 
 
@@ -1944,23 +1970,30 @@ div.star_hover a, div.star a:hover { background-position: 0 -12px }
 
 
 /*************** Block CATEGORIES ***************/
-#categories_block_left  li {/*border-bottom:1px dotted #ccc*/}
-	#categories_block_left  li.last {	border:none;}
+#categories_block_left  li {/*border-bottom:1px dotted #ccc*/
+
+background: url(../../../modules/blockcategories/img/icon/red-star.png) no-repeat scroll left center transparent;
+background-position: 20px 1px;
+
+}
+	#categories_block_left  li.last {	border:none;
+
+	}
 		#categories_block_left  li a {
-			display:block;
-		
-			  background: none repeat scroll 0 0 transparent;
+	
+	display:block;
+	background: none repeat scroll 0 0 transparent;
     border: medium none;
     display: block;
     font-size: 13px;
     font-weight: normal;
     line-height: 13px;
     margin-bottom: 20px;
-    margin-left: 0;
+    margin-left: 40px;
     padding-left: 0;
-    padding-top: 5px;
+    padding-top: 0px;
 			color:#FFFFFF;
-			/*background:url(../../../modules/blockcategories/img/arrow_right_2.png) no-repeat 10px 10px transparent*/
+			
 		}
 		
 	#categories_block_left  li ul {margin-left:40px}
@@ -1975,6 +2008,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -12px }
 	display:block;
 	float:right;
 	margin:10px 10px 0;
+
 	height:9px;
 	width:9px;
 	background:url(../../../modules/blockcategories/img/icon/open-close.png) no-repeat 0 -9px;
