@@ -77,6 +77,10 @@ Things we wish to hide
 
 	display: none;
 }
+#reinsurance_block {
+
+	display:none;
+}
 
 /* ************************************************************************************************
 		generic style
@@ -586,10 +590,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 /* ************************************************************************************************
 		FOOTER
 ************************************************************************************************ */
-#reinsurance_block {
 
-	display:none;
-}
 #footer {
 	
 	color:#fff;
@@ -1943,13 +1944,23 @@ div.star_hover a, div.star a:hover { background-position: 0 -12px }
 
 
 /*************** Block CATEGORIES ***************/
-#categories_block_left  li {border-bottom:1px dotted #ccc}
+#categories_block_left  li {/*border-bottom:1px dotted #ccc*/}
 	#categories_block_left  li.last {	border:none;}
 		#categories_block_left  li a {
 			display:block;
-			padding:7px 11px 5px 22px;
+		
+			  background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 13px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 5px;
 			color:#FFFFFF;
-			background:url(../../../modules/blockcategories/img/arrow_right_2.png) no-repeat 10px 10px transparent
+			/*background:url(../../../modules/blockcategories/img/arrow_right_2.png) no-repeat 10px 10px transparent*/
 		}
 		
 	#categories_block_left  li ul {margin-left:40px}
