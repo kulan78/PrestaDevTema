@@ -47,7 +47,36 @@ a {cursor:pointer}
 		#center_column {}
 		#right_column {}
 	#footer {}
+/* ************************************************************************************************
+Things we wish to hide
+************************************************************************************************* */
+#tags_block_left{
 
+	display: none; 
+}
+#suppliers_block_left{
+
+	display: none;
+}
+#manufacturers_block_left{
+	display: none;
+}
+#informations_block_left_1{
+
+	display: none;
+}
+#advertising_block{
+
+	display: none;
+}
+#newsletter_block_left{
+
+	display: none;
+}
+.advertising_block{
+
+	display: none;
+}
 
 /* ************************************************************************************************
 		generic style
@@ -557,10 +586,14 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 /* ************************************************************************************************
 		FOOTER
 ************************************************************************************************ */
+#reinsurance_block {
+
+	display:none;
+}
 #footer {
 	
 	color:#fff;
-	background:#333
+	background: #303030;
 }
 	.blockcategories_footer,
 	#footer .myaccount ,
@@ -1915,7 +1948,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -12px }
 		#categories_block_left  li a {
 			display:block;
 			padding:7px 11px 5px 22px;
-			color:#333;
+			color:#FFFFFF;
 			background:url(../../../modules/blockcategories/img/arrow_right_2.png) no-repeat 10px 10px transparent
 		}
 		
