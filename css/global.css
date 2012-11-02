@@ -96,6 +96,14 @@ Things we wish to hide
 
 	display: none;
 }
+#currencies_block_top{
+
+	display: none;
+}
+#viewed-products_block_left{
+
+	display: none;
+}
 
 /* ************************************************************************************************
 		generic style
