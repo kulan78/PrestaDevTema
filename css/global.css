@@ -81,6 +81,21 @@ Things we wish to hide
 
 	display:none;
 }
+#new-products_block_right{
+	display: none;
+}
+#special_block_right{
+
+	display: none;
+}
+#stores_block_left{
+
+	display: none;
+}
+#contact_block{
+
+	display: none;
+}
 
 /* ************************************************************************************************
 		generic style
@@ -386,11 +401,13 @@ ul.footer_links li .icon {
 	}
 
 .sortPagiBar #bt_compare {
-	padding:3px 7px;
+
+display: none;
+/*	padding:3px 7px;
 	border:none;
 	color:#fff;
 	text-shadow:0 1px 0 #000;
-	background:url(../img/bg_bt_compare.gif) repeat-x 0 0 #111;
+	background:url(../img/bg_bt_compare.gif) repeat-x 0 0 #111;*/
 }
 
 .sortPagiBar .nbrItemPage {margin-left:40px;}
