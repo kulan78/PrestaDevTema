@@ -76,6 +76,14 @@
 				<a id="header_logo" href="{$base_dir}" title="{$shop_name|escape:'htmlall':'UTF-8'}">
 					<img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'htmlall':'UTF-8'}" {if $logo_image_width}width="{$logo_image_width}"{/if} {if $logo_image_height}height="{$logo_image_height}" {/if} />
 				</a>
+				<div id="logotypes">
+					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross.png" title="Albatross">
+					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross2.png" title="Albatross">
+					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross3.png" title="Albatross">
+					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross4.png" title="Albatross">
+					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross5.png" title="Albatross">
+					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross6.png" title="Albatross">
+				</div>	
 				<div id="header_right" class="grid_6 omega">
 					{$HOOK_TOP}
 				</div>
