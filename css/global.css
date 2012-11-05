@@ -46,7 +46,10 @@ a {cursor:pointer}
 		#left_column {}
 		#center_column {}
 		#right_column {}
-	#footer {}
+	#footer {border-top: 1px solid #DDDAD0;
+		 
+
+    	}
 /* ************************************************************************************************
 Things we wish to hide
 ************************************************************************************************* */
@@ -2201,4 +2204,13 @@ tr.subitem > td:first-child + td {
 .blocksupplier p {
 	padding:0;
 	text-align:center
+}
+
+#header-line {
+    background: url("../img/header-line.jpg") repeat-x scroll center bottom transparent;
+    clear: left;
+    height: 10px;
+    margin: auto;
+    padding-top: 10px;
+    width: 900px;
 }

@@ -38,8 +38,12 @@
 
 /* Grid >> Children (Alpha ~ First, Omega ~ Last)
 ----------------------------------------------------------------------------------------------------*/
-.alpha {margin-left: 0;}
-.omega {margin-right: 0;}
+.alpha {margin-left: 0;
+
+}
+.omega {margin-right: 0;
+
+}
 
 
 /* Grid >> 9 Columns

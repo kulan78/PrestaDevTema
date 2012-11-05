@@ -79,6 +79,7 @@
 				<div id="header_right" class="grid_6 omega">
 					{$HOOK_TOP}
 				</div>
+				<div id="header-line"></div>
 			</div>
 
 			<div id="columns" class="grid_9 alpha omega clearfix">
@@ -89,4 +90,5 @@
 
 				<!-- Center -->
 				<div id="center_column" class=" grid_5">
+
 	{/if}
