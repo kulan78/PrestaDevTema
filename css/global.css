@@ -46,7 +46,7 @@ a {cursor:pointer}
 		#left_column {}
 		#center_column {}
 		#right_column {}
-	#footer {border-top: 1px solid #DDDAD0;
+	#footer {/*border-top: 1px solid #DDDAD0;*/
 		 
 
     	}
@@ -2213,4 +2213,11 @@ tr.subitem > td:first-child + td {
     margin: auto;
     padding-top: 10px;
     width: 900px;
+}
+
+#line-footer {
+    border-top: 1px solid #DDDAD0;
+    height: 1px;
+    margin: auto;
+    width: 90%;
 }
