@@ -393,7 +393,7 @@ background-position: 0px 8px;
 		text-transform:uppercase;
 		background:#383838;*/
 		padding:6px 20px;
-		margin-left: 20px;
+		margin-left: 50px;
 	}
 		.block h4 a {color:#fff}
 	.block ul {list-style-type:none}
@@ -705,6 +705,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 }
 #footer h4,
 #footer h4 a {
+	margin-left: 40px;
 	font-weight:normal;
 	font-size:14px;
 	color:#fff
@@ -2042,7 +2043,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -12px }
 
 background: url(../../../modules/blockcategories/img/icon/red-star.png) no-repeat scroll left center transparent;
 background-position: 20px 1px;
-
+margin-left: 30px;
 }
 	#categories_block_left  li.last {	border:none;
 
@@ -2119,6 +2120,7 @@ tr.subitem > td:first-child + td {
 #block_contact_infos li {
 	padding:0 !important;
 	line-height: 20px;
+	margin-left: 40px;
 }
 #block_contact_infos li  strong {
 	font-weight:normal;
