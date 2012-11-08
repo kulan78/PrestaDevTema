@@ -83,11 +83,13 @@
 					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross4.png" title="Albatross">
 					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross5.png" title="Albatross">
 					<img src="http://192.168.1.155/prestashop/themes/devtema/img/albatross6.png" title="Albatross">
+			
 				</div>	
 				<div id="header_right" class="grid_6 omega">
 					{$HOOK_TOP}
 				</div>
 				<div id="header-line"></div>
+
 			</div>
 
 			<div id="columns" class="grid_9 alpha omega clearfix">
